@@ -49,3 +49,7 @@ College-town home sales dataset, version 1.0 (2026). University of Illinois-Delo
 ## Who did what
 
 _For teams: replace this line with each member's name and what they did. If you worked alone, delete this section._
+
+## Rebuild the city median page
+
+Run `python3 scripts/build_city_prices.py` from the repository root using Python's standard library. It reads the original CSV and rewrites `index.html` with city/state medians for sales of at least $10,000, rounded to whole dollars. Commit both the script and generated page. The committed page works directly on GitHub Pages without a build step or JavaScript.
